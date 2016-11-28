@@ -1,3 +1,4 @@
+ext/bal_tree.cmx : ext/bal_tree.cmi
 ext/ext_array.cmx : ext/ext_array.cmi
 ext/ext_bytes.cmx : ext/ext_bytes.cmi
 ext/ext_char.cmx : ext/ext_char.cmi
@@ -34,6 +35,7 @@ ext/string_map.cmx : ext/string_map.cmi
 ext/string_set.cmx : ext/string_set.cmi
 ext/string_vec.cmx : ext/resize_array.cmx ext/string_vec.cmi
 ext/union_find.cmx : ext/union_find.cmi
+ext/bal_tree.cmi :
 ext/ext_array.cmi :
 ext/ext_bytes.cmi :
 ext/ext_char.cmi :
@@ -545,6 +547,7 @@ ounit/oUnitTypes.cmx :
 ounit/oUnitUtils.cmx : ounit/oUnitTypes.cmx
 ounit_tests/ounit_array_tests.cmx : ounit/oUnit.cmx ext/ext_string.cmx \
     ext/ext_array.cmx
+ounit_tests/ounit_bal_tree_tests.cmx :
 ounit_tests/ounit_hash_set_tests.cmx : ext/ordered_hash_set.cmx \
     ounit/oUnit.cmx ext/hash_set.cmx
 ounit_tests/ounit_json_tests.cmx : ext/string_map.cmx ounit/oUnit.cmx \
